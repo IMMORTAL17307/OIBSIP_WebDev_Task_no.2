@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishant Khare | Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">Ishant Khare</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <span class="greeting">Hello, I'm</span>
+                <h1>Ishant Khare</h1>
+                <h2>Aspiring Web Developer</h2>
+                <p class="intro-desc">I create clean, responsive, and user-friendly web pages. I am currently learning front-end web development technologies and building projects using HTML, CSS, and basic JavaScript. Welcome to my personal portfolio!</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#" class="btn btn-secondary" download>Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-avatar-area">
+                <div class="developer-illustration">
+                    <div class="circle-bg"></div>
+                    <img src="profile_photo.jpeg" alt="Ishant Khare" class="hero-profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>I am a beginner web developer passionate about writing clean code and creating beautiful designs. My journey in web technology started recently, and I have been focused on mastering the foundations of the web: HTML5, CSS3, and standard responsive design layouts.</p>
+                <p>I enjoy the process of turning a design mock-up into a fully functional, live webpage that works on mobile, tablet, and desktop screens. I am highly motivated, detail-oriented, and looking forward to building more advanced projects as I grow.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon html-icon">&lt;/&gt;</div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, forms, validation, and structure.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon css-icon">#</div>
+                    <h3>CSS3</h3>
+                    <p>Flexbox layouts, basic grids, responsiveness, and transitions.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon js-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>Basic DOM manipulation, variables, math operations, and simple event handling.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon git-icon">Git</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control, basic commits, branching, and hosting repositories.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Chai & Chat Landing Page</h3>
+                        <p>A responsive landing page built with pure HTML and CSS. It includes headers, columns, a product grid, a story section, and footers.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                        <a href="../landing_page/index.html" class="project-link">View Page &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Temperature Converter</h3>
+                        <p>A conversion utility page that converts temperatures between Celsius, Fahrenheit, and Kelvin in real-time with basic input verification.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="../temperature_converter/index.html" class="project-link">View Page &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>This actual personal website, highlighting my projects, skills, biography, and a working layout for client contact.</p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                        </div>
+                        <a href="#" class="project-link">Active View &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>Feel free to reach out if you have any questions or would like to work together on a project!</p>
+                    <ul class="contact-list">
+                        <li><strong>Email:</strong> harshkh173@gmail.com</li>
+                        <li><strong>GitHub:</strong> https://github.com/IMMORTAL17307</li>
+                        <li><strong>LinkedIn:</strong> https://www.linkedin.com/in/ishant-khare-324aa6213</li>
+                    </ul>
+                </div>
+                <div class="contact-form-container">
+                    <form action="#" method="POST" class="contact-form" onsubmit="event.preventDefault(); alert('Message sent! (Mock submission)');">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Type your message here"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Ishant Khare. Built with HTML and CSS.</p>
+    </footer>
+
+</body>
+</html>
