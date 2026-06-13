@@ -4,7 +4,8 @@ A personal portfolio website styled with CSS Flexbox and Grid to showcase projec
 
 ### 👨‍💻 Developer Details
 * **Name:** Ishant Khare
-
+* **Domain:** Web Development
+* **Company:** Oasis Infobyte
 ### 🎯 Objective
 To build a personalized portfolio website designed to clearly showcase my technical skills, projects, and contact information.
 
